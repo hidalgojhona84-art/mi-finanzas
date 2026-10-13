@@ -1,0 +1,17 @@
+MI FINANZAS - INSTALACIÓN COMO APLICACIÓN
+
+IMPORTANTE: Para que se pueda instalar en la pantalla de inicio en Android, iPhone, Windows y otros dispositivos, publica esta carpeta en un sitio HTTPS. Abrir index.html directamente desde un archivo ZIP no permite la instalación completa como aplicación en todos los dispositivos.
+
+ARCHIVOS INCLUIDOS:
+- index.html: aplicación
+- style.css: estilos
+- manifest.json: nombre, iconos y comportamiento de instalación
+- sw.js: caché básica para abrir la interfaz cuando no hay conexión después de la primera visita
+- icons/: iconos de la aplicación
+
+INSTALAR DESPUÉS DE PUBLICAR EN HTTPS:
+- Android/Chrome: abre el enlace web, pulsa “Instalar aplicación” o el menú ⋮ > Instalar aplicación / Añadir a pantalla de inicio.
+- iPhone/iPad/Safari: abre el enlace, pulsa Compartir y luego “Añadir a pantalla de inicio”. iOS puede no mostrar un aviso automático dentro de la página.
+- Windows/Edge o Chrome: abre el enlace y usa el icono Instalar de la barra de direcciones o el menú del navegador.
+
+Los datos de esta versión se guardan localmente en cada navegador/dispositivo. Instalarla no sincroniza automáticamente los datos entre dispositivos ni convierte el almacenamiento local en una cuenta central. Para sincronización entre dispositivos hace falta un servidor y una base de datos.
